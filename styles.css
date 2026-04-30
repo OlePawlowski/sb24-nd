@@ -70,6 +70,9 @@ body {
   width: clamp(130px, 9vw, 165px);
   height: auto;
   display: block;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  filter: contrast(1.06) saturate(1.04);
 }
 
 .desktop-nav {
@@ -774,8 +777,8 @@ blockquote {
   }
 
   .brand img {
-    width: 150px;
-    max-width: 42vw;
+    width: 168px;
+    max-width: 52vw;
     height: auto;
   }
 
@@ -904,8 +907,8 @@ blockquote {
   }
 
   .brand img {
-    width: 132px;
-    max-width: 46vw;
+    width: 160px;
+    max-width: 60vw;
   }
 
   .theme-btn {
