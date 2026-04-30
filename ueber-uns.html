@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Über uns - Statikbüro24</title>
+  <meta name="description" content="Erfahrenes Team für Tragwerksplanung und statische Berechnungen.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="./index.html">
+        <img class="brand-logo-real" src="https://xn--statikbro24-zhb.de/img/colored-logo.png" alt="Statikbüro24 Logo">
+      </a>
+      <nav class="desktop-nav">
+        <a class="pill-link" href="./leistungen.html">Leistungsportfolio</a>
+        <a href="./projekte.html">Projekte</a>
+        <a class="active" href="./ueber-uns.html">Über uns</a>
+        <a href="./kontakt.html">Kontakt</a>
+      </nav>
+      <div class="header-controls">
+        <a class="meeting-btn" href="./kontakt.html">Kontakt</a>
+        <button class="menu-btn" type="button" aria-label="Menü öffnen" id="menuToggle">☰</button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="./leistungen.html">Leistungsportfolio</a>
+      <a href="./projekte.html">Projekte</a>
+      <a href="./ueber-uns.html">Über uns</a>
+      <a href="./kontakt.html">Kontakt</a>
+      <a href="./impressum.html">Impressum</a>
+    </nav>
+  </header>
+  <main>
+    <section class="subpage-hero"><div class="container"><p class="eyebrow">Statikbüro24</p><h1>Warum Statikbüro24?</h1><p class="section-intro">Zuverlässiger Partner für professionelle Tragwerksplanung und statische Berechnungen.</p></div></section>
+    <section class="subpage-content"><div class="container text-grid">
+      <article class="text-card"><h3>Erfahrung und Kompetenz</h3><p>Ein Team aus qualifizierten Statikern und Ingenieuren begleitet Sie von der ersten Einschätzung bis zur prüffähigen Dokumentation.</p></article>
+      <article class="text-card"><h3>Zuverlässigkeit und Präzision</h3><p>Planung nach hohen fachlichen Standards mit sauberer Abstimmung zwischen Entwurf, Nachweis und Ausführung.</p></article>
+      <article class="text-card"><h3>Digitale Prozesse</h3><p>Effiziente Bearbeitung durch moderne Tools für Berechnung, Koordination und transparente Projektkommunikation.</p></article>
+      <article class="text-card"><h3>Unsere Schwerpunkte</h3><ul><li>Neubau</li><li>Stahlbetonbau</li><li>Mauerwerksbau</li><li>Bestandsbau</li><li>Holzbau</li><li>Erweiterung, Aufstockung, Sanierung</li></ul></article>
+    </div><div class="container cta-strip"><p>Sie planen ein Bauvorhaben und benötigen belastbare Statik?</p><a class="btn btn-primary" href="./kontakt.html">Jetzt Kontakt aufnehmen</a></div></section>
+  </main>
+  <footer class="site-footer" id="kontakt">
+    <div class="container footer-grid">
+      <div>
+        <h3>Leistungen</h3>
+        <ul>
+          <li><a href="./tragwerksplanung.html">Tragwerksplanung</a></li>
+          <li><a href="./standsicherheitsnachweis.html">Standsicherheitsnachweis</a></li>
+          <li><a href="./bauantrag.html">Bauantrag</a></li>
+          <li><a href="./bewehrungsplan.html">Bewehrungsplan</a></li>
+          <li><a href="./brandschutznachweis.html">Brandschutznachweis</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Informationen</h3>
+        <ul>
+          <li><a href="./interaktive-karte.html">Interaktive Karte</a></li>
+          <li><a href="./ueber-uns.html">Über uns</a></li>
+          <li><a href="./projekte.html">Projekte</a></li>
+          <li><a href="./leistungen.html">Leistungsportfolio</a></li>
+          <li><a href="./kontakt.html">Kontakt</a></li>
+          <li><a href="./datenschutz.html">Datenschutz</a></li>
+          <li><a href="./impressum.html">Impressum</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Kontakt</h3>
+        <p>Hauptgeschäftsstelle Berlin<br>Franz-Ehrlich-Straße 12<br>12489 Berlin</p>
+        <p>Mobil: +49 (0) 151 685 135 53<br>Büro: +49 (0) 3362 740 41 83<br>info@statikbuero-24.de</p>
+      </div>
+    </div>
+    <p class="copyright">© 2025 Statikbüro24. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById("menuToggle");
+    const mobileNav = document.getElementById("mobileNav");
+    if (toggle && mobileNav) {
+      toggle.addEventListener("click", () => {
+        mobileNav.classList.toggle("open");
+      });
+    }
+  </script>
+</body>
+</html>
